@@ -1,0 +1,8 @@
+{
+  "private": true,
+  "dependencies": {
+    "director": "~1.2.2",
+    "handlebars": "~2.0.0",
+    "jquery": "~2.1.1"
+  }
+}
