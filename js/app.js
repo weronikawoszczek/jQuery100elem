@@ -40,7 +40,7 @@ jQuery(function ($) {
 	var App = {
 		init: function () {
 			// this.todos = util.store('todos-jquery');
-			this.todos = [...Array(100)].map( (_, i) => ({ id: i, title:'new task' + ' ' + i, completed: false }));
+			this.todos = [...Array(1000)].map( (_, i) => ({ id: i, title:'new task' + ' ' + i, completed: false }));
 			this.todoTemplate = Handlebars.compile($('#todo-template').html());
 			this.footerTemplate = Handlebars.compile($('#footer-template').html());
 			this.bindEvents();
