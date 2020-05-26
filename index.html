@@ -17,13 +17,15 @@
 				<h1>My checklist</h1>
 				<input class="new-check" placeholder="Type your task" autofocus>
 			</header>
+		<footer class="footer"></footer>
 			<section class="main">
 				<input id="toggle-all" class="toggle-all" type="checkbox">
 				<label for="toggle-all">Mark all as complete</label>
 				<ul class="check-list"></ul>
 			</section>
-			<footer class="footer"></footer>
 		</section>
+
+
 		<script id="todo-template" type="text/x-handlebars-template">
 			{{#this}}
 			<li {{#if completed}}class="completed"{{/if}} data-id="{{id}}">
