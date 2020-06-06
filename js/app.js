@@ -50,8 +50,9 @@ jQuery(function ($) {
 					this.filter = filter;
 					this.render();
 				}.bind(this)
-			}).init('/active');
+			}).init('/all');
 		},
+        
 		bindEvents: function () {
 			$('.new-check').on('keyup', this.create.bind(this));
 			$('.toggle-all').on('change', this.toggleAll.bind(this));
