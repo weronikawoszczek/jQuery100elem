@@ -52,7 +52,7 @@ jQuery(function ($) {
 				}.bind(this)
 			}).init('/all');
 		},
-        
+
 		bindEvents: function () {
 			$('.new-check').on('keyup', this.create.bind(this));
 			$('.toggle-all').on('change', this.toggleAll.bind(this));
